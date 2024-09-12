@@ -23,15 +23,16 @@ public class Collatz {
     }
 
     private static List<Integer> collatzWithFor(int n) {
-        // This implementation uses (or arguably misuses) a C-style foor loop:
-        // (No need to try to understand it unless you are feeling particularly masochistic.)
+        // This implementation uses (or arguably misuses) a C-style foor loop.
+        // (No need to try to understand all the details unless you are feeling particularly
+        // masochistic. Just soak up the general flavor of this code.)
 
         List<Integer> result;
         for (result = new ArrayList<>(); n > 1; result.add(n), n = (n % 2 == 0) ? n / 2 : 3 * n + 1);
         return result;
     }
 
-    // Which takes less code?
+    // Which one takes less code?
     //
     // Which would you rather read? Which would you rather have to make sense of?
     //
