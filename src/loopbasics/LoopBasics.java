@@ -359,7 +359,7 @@ public class LoopBasics {
         // The mistake above in the line marked `❌ wrong` is a very common kind of mistake in
         // programming. It’s so common we have a name for it: it is an “off by one error.” Saying <
         // instead of <= when comparing integers, or starting from 1 instead of 0, or looping one
-        // too many times, or one two few...all of these mistakes are off by one errors.
+        // too many times, or one too few...all of these mistakes are off by one errors.
         // 
         // Now you can understand an old programmer joke:
         //
