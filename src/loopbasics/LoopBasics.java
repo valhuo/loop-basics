@@ -310,6 +310,9 @@ public class LoopBasics {
         // the quality we want from code is that it is _obvious_ to the reader. Sometimes there is
         // a clever way of making it more obvious. In that case, clever migh tbe good. But be
         // careful. It is easy to go overboard with a new tool.
+        //
+        // (If you want to see an example of going overboard with the C-style for loop, look at
+        // Collatz.java in this project. And if you want to protect your innocent eyes, don’t look.)
 
         // Note that, because lists have a get(n) method that takes an integer, it is possible to
         // use the C-style for loop instead of the for-each loop! All we have to do is count through
