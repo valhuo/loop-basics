@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class LoopBasics {
     public static void main(String[] args) {
-        // Here is a list of tasty foods available in the TWin Cities:
+        // Here is a list of tasty foods available in the Twin Cities:
 
         List<String> twinCitiesFoods = List.of(
             "chana saag", "bánh mì", "お握り",
@@ -245,10 +245,10 @@ public class LoopBasics {
         // programming language C (which predates Java by ~23 years).
         //
         // Note that the C-style for loop does not add new power to the language. Instead, it takes
-        // something that already exists _rearranges it_, provides a new syntax for it that makes a
-        // common idiom more readable and more convenient. When a language provides new, nicer
-        // syntax for a feature that already exists, we call this “syntactic sugar” (because it
-        // makes the language sweeter).
+        // something that already exists and _rearranges it_, provides a new syntax for it that
+        // makes a common idiom more readable and more convenient. When a language provides new,
+        // nicer syntax for a feature that already exists, we call this “syntactic sugar” (because
+        // it makes the language sweeter).
         
         // Here is that counting while loop again:
 
@@ -303,6 +303,8 @@ public class LoopBasics {
         }
         System.out.println("Done!");
 
+        // We’ve now wandered beyond just doing something n times.
+        //
         // The C-style for loop is very flexible. It can be _too_ flexible sometimes: it is possible
         // to get very clever with it, and “clever” is not always a good thing in code! Usually,
         // the quality we want from code is that it is _obvious_ to the reader. Sometimes there is
