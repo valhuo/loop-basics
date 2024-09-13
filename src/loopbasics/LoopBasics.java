@@ -49,14 +49,14 @@ public class LoopBasics {
         // - body: any sequence of statements
 
         // In this reading, you will learn the syntax for two other kinds of loops in Java. We’ll
-        // break down the syntax in the same way. You will also learn about a couple of ways control
-        // the flow of loops, and learn some patterns of problems to which these different tools
-        // are suited.
+        // break down the syntax in the same way. You will also learn about a couple of ways to
+        // control the flow of loops, and learn some patterns of problems to which these different
+        // tools are suited.
 
 
         System.out.println("────── While Loops ──────");
 
-        // The for-each loop is a good choice when the iterations of the loop correspend to elements
+        // The for-each loop is a good choice when the iterations of the loop correspond to elements
         // of some collection. However, sometimes there is not a collection to iterate over.
         // Sometimes there isn’t even any way to know in advance how many times the loop needs to
         // iterate before it’s done!
@@ -197,9 +197,9 @@ public class LoopBasics {
 
         // Note that we could also have implemented the code above in other ways:
         //
-        // - We could place the whole body of the look inside a giant if statement: only do it all
+        // - We could place the whole body of the loop inside a giant if statement: only do it all
         //   if the food is _not_ out of stock.
-        // - We could construct an `availableFoods` list, with `outOfStock` removed, then looped
+        // - We could construct an `availableFoods` list, with `outOfStock` removed, then loop
         //   over that.
         //
         // Either of these approaches might be better...or worse. It depends on the situation, and
@@ -308,7 +308,7 @@ public class LoopBasics {
         // The C-style for loop is very flexible. It can be _too_ flexible sometimes: it is possible
         // to get very clever with it, and “clever” is not always a good thing in code! Usually,
         // the quality we want from code is that it is _obvious_ to the reader. Sometimes there is
-        // a clever way of making it more obvious. In that case, clever migh tbe good. But be
+        // a clever way of making it more obvious. In that case, clever might be good. But be
         // careful. It is easy to go overboard with a new tool.
         //
         // (If you want to see an example of going overboard with the C-style for loop, look at
