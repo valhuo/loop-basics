@@ -12,12 +12,12 @@ public class Collatz {
 
         List<Integer> result = new ArrayList<>();
         while (n > 1) {
-            result.add(n);
             if (n % 2 == 0) {
                 n = n / 2;
             } else {
                 n = 3 * n + 1;
             }
+            result.add(n);
         }
         return result;
     }
@@ -28,7 +28,7 @@ public class Collatz {
         // masochistic. Just soak up the general flavor of this code.)
 
         List<Integer> result;
-        for (result = new ArrayList<>(); n > 1; result.add(n), n = (n % 2 == 0) ? n / 2 : 3 * n + 1);
+        for (result = new ArrayList<>(); n > 1; result.add(n = (n % 2 == 0) ? n / 2 : 3 * n + 1));
         return result;
     }
 
