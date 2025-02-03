@@ -104,18 +104,18 @@ public class LoopBasics {
         // this becomes much more awkward! Here’s an approach that almost makes sense...but doesn’t
         // work. Uncomment it to see the error message:
 
-        /*
-        String secretWord = "bird";
-        while(!guess.equals(secretWord)) {         // We use guess here...
-            System.out.println("Guess a word:");
-            String guess = input.nextLine();       // ...but don’t declare it until here
-            if (guess.equals(secretWord)) {
-                System.out.println("You got it!");
-            } else {
-                System.out.println("Nope, sorry.");
-            }
-        }
-        */
+        
+        // String secretWord = "bird";
+        // while(!guess.equals(secretWord)) {         // We use guess here...
+        //     System.out.println("Guess a word:");
+        //     String guess = input.nextLine();       // ...but don’t declare it until here
+        //     if (guess.equals(secretWord)) {
+        //         System.out.println("You got it!");
+        //     } else {
+        //         System.out.println("Nope, sorry.");
+        //     }
+        // }
+        
 
         // We could fix this by declaring `guess` outside the loop, and giving it a fake value that
         // is always wrong for the first iteration. But what we really _want_ is to move that loop
